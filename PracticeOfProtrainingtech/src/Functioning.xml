@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Adhoc" parallel="tests" thread-count="6">
+<listeners>
+<listener class-name="ProTrainingTech.Ilistners"></listener>
+
+</listeners>
+
+<test name="Funct">
+<parameter name="browser" value="Chrome"></parameter>
+<parameter name="URL" value="https://www.facebook.com"></parameter>
+<classes>
+<!--  <class name="comprotrainingtechorg.PracticeOfProtrainingtech.MultipleBrowsersClas"></class>
+<class name="comprotrainingtechorg.PracticeOfProtrainingtech.HomeToVerify"></class>
+<class name="comprotrainingtechorg.PracticeOfProtrainingtech.Providers"></class>
+<class name="comprotrainingtechorg.PracticeOfProtrainingtech.Property"></class>-->
+<class name="comprotrainingtechorg.PracticeOfProtrainingtech.FindOfElements"></class>
+</classes>
+</test>
+<!--  <test name="Firefox">
+<parameter name="browser" value="Firefox"></parameter>
+<parameter name="URL" value="https://www.facebook.com"></parameter>
+<classes>
+<class name="comprotrainingtechorg.PracticeOfProtrainingtech.MultipleBrowsersClas"></class>
+<class name="comprotrainingtechorg.PracticeOfProtrainingtech.HomeToVerify"></class>
+</classes>
+</test>
+<test name="Edge">
+<parameter name="browser" value="Edge"></parameter>
+<parameter name="URL" value="https://www.facebook.com"></parameter>
+<classes>
+<class name="comprotrainingtechorg.PracticeOfProtrainingtech.MultipleBrowsersClas"></class>
+<class name="comprotrainingtechorg.PracticeOfProtrainingtech.HomeToVerify"></class>
+</classes>
+</test>-->
+</suite>
